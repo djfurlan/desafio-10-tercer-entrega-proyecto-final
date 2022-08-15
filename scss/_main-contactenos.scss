@@ -35,17 +35,17 @@
 
                                     .ctrl-1 {
                                        @extend .controles;
-                                        border: solid 2px blue;
+                                        border: solid 2px green;
                                     }
 
                                     .ctrl-2 {
                                         @extend .controles;
-                                         border: solid 2px red;
+                                         border: solid 2px green;
                                      }
 
                                      .ctrl-3 {
                                         @extend .controles;
-                                         border: solid 2px black;
+                                         border: solid 2px green;
                                      }
 
                                     .boton {

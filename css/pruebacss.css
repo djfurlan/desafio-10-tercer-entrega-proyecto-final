@@ -147,11 +147,11 @@
   .productos .img-Productos-1 {
     border: 5px solid green; }
   .productos .img-Productos-2 {
-    border: 5px solid blue; }
+    border: 5px solid green; }
   .productos .img-Productos-3 {
-    border: 5px solid orange; }
+    border: 5px solid green; }
   .productos .img-Productos-4 {
-    border: 5px solid black; }
+    border: 5px solid green; }
   .productos .descripcion-Producto {
     width: 22rem;
     padding: 1rem;
@@ -255,11 +255,11 @@
       font-size: 15px;
       border: solid 2px green; }
     .main-Contactenos .form-Consulta .ctrl-1 {
-      border: solid 2px blue; }
+      border: solid 2px green; }
     .main-Contactenos .form-Consulta .ctrl-2 {
-      border: solid 2px red; }
+      border: solid 2px green; }
     .main-Contactenos .form-Consulta .ctrl-3 {
-      border: solid 2px black; }
+      border: solid 2px green; }
     .main-Contactenos .form-Consulta .boton {
       width: 100%;
       padding: 10px;
