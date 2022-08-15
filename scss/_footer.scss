@@ -1,0 +1,37 @@
+footer {
+    width: 100%;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-Footer {
+        width: 40px;
+        margin: 5px;
+        border-radius: 1rem;
+    }
+
+    p {
+        width: 50%;
+        background-color: rgb(80, 166, 26);
+        color: $color-font;
+        font-size: 1.1rem;
+        border-radius: 0.4rem;
+        text-align: center;
+    }
+    
+    
+
+        .logo-Redes {
+            display: flex;
+
+            li {
+                width: 75px;
+            }
+
+            img {
+                width: 50%;
+                border-radius: 10rem;
+            }
+        }
+}

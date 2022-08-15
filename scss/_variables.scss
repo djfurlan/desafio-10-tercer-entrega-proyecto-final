@@ -1,0 +1,7 @@
+$color-primary:  rgb(80, 166, 26);
+$color-font: hsl(0, 0%, 100%);
+
+@mixin size ($ancho,$padding){
+    width: $ancho;
+    padding: $padding;
+}

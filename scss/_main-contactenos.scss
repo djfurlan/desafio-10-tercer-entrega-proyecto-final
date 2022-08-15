@@ -1,0 +1,60 @@
+.main-Contactenos {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(188, 238, 190, 0.888);
+    display: flex;
+    justify-content: center;
+
+                    .form-Consulta {
+                        width: 500px;
+                        background: $color-primary;
+                        padding: 30px 50px;
+                        margin: 50px 0;
+                        border-radius: 1rem;
+                        font-family: calibri;
+                        color: $color-font;
+                        box-shadow: 7px 13px 37px rgb(71, 102, 169);
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    
+                                    h4{
+                                        font-size: 25px;
+                                         margin: 20px 0; 
+                                    }
+                                                                    
+                                    .controles {
+                                       @include size (93%,10px);
+                                        margin-bottom: 10px;
+                                        border-radius: 8px;
+                                        font-size: 15px;
+                                        border: solid 2px green;
+                                                                            
+                                    }
+
+                                    .ctrl-1 {
+                                       @extend .controles;
+                                        border: solid 2px blue;
+                                    }
+
+                                    .ctrl-2 {
+                                        @extend .controles;
+                                         border: solid 2px red;
+                                     }
+
+                                     .ctrl-3 {
+                                        @extend .controles;
+                                         border: solid 2px black;
+                                     }
+
+                                    .boton {
+                                        width: 100%;
+                                        padding: 10px;
+                                        border-radius: 8px;
+                                        background-color: rgba(169, 169, 169, 0.748);
+                                        font-size: 20px;
+                                        color: $color-font;
+                                    }
+                    } 
+}

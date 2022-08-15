@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    >a {
+        width: 10%;
+        align-items: center;
+        margin-left: 10px;
+
+        .logo-appa {
+            width: 90%;
+            object-fit: contain;
+            border-radius: 50%;
+        }
+    }
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 150%;
+        color: $color-font;
+    }
+
+    nav {
+        width: 40%;
+
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            li {
+                &:hover {
+                    text-decoration: underline wavy;
+                }
+
+                a {
+                      color:$color-font;
+                    font-size: 1.1rem;
+                }
+
+            }
+        }
+    }
+}

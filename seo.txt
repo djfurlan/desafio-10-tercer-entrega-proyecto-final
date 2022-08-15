@@ -1,0 +1,31 @@
+Index.html
+    Agregue Keywors:APPA, jugo natural de manzana, Cipolletti, Río Negro, Patagonia, Argentina
+    Agregue Description: Jugo Appa 100% Natural. 
+    La mayor variedad de jugos de manzana para acompañarte en tu día día. 
+    jugo de manzana roja y verde, orgánico!
+
+Productos.html
+    Agregue Keywors: APPA, jugo natural de manzana, Cipolletti, Río Negro, Patagonia, Argentina"
+    Agregue Description: Nuestros productos Seleccionar Jugos de Manzana roja Jugos de Manzana Verde Seleccionar Packs de 1 litroPacks de 200ml Conocé todos nuestros productos ¡QUIERO VER MÁS!
+
+Cultura.html
+    Agregue Keywors: APPA, jugo natural de manzana, Cipolletti, Río Negro, Patagonia, Argentina, natural, alimentación, beneficios">
+    Agregue Description: Nuestra historia ¡Hola! Somos Appa. Una empresa joven que vuelve a las raíces de la actividad fructífera. Existimos por la necesidad de desafiar hábitos de consumo de productos alimenticios y así, motivar cambios positivos en la calidad de vida de las personas.  Nuestra propuesta combina la alimentación saludable con un producto de calidad, sin aditivos ni conservantes
+
+Visitas.html
+    Agregue Keywors: APPA, jugo natural de manzana, Cipolletti, Río Negro, Patagonia, Argentina, natural, aire libre, chacras">
+    Agregue Description: Para conocer mas sobre nosotros, podes vistarnos en Cipolletti
+
+Contactenos.html
+    Agregue Keywors: APPA, jugo natural de manzana, Cipolletti, Río Negro, Patagonia, Argentina, contacto, contanos
+    Agregue Description: Contactanos ¡Hola, contanos cómo podemos ayudarte! E-mail: hola@appa.com Whatsapp: +54 9 299-4277657 Atención al público de lunes a viernes de 10 a 18hs  Dejanos tu datos de contacto y tu mensaje Acá podrás dejarnos tus reclamos">
+
+Variables.scss
+    Agregue: @mixin size
+
+Main-productos.scss:
+    Agregue: Maps
+
+Main-contactenos.scss
+    Agregue: Mixin (declarado en variables)
+    Agregue: Extend

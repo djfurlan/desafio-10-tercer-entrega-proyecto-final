@@ -1,0 +1,160 @@
+.productos {
+    width: 100%;
+    background-color: rgba(188, 238, 190, 0.888);
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "parrafo parrafo"
+        "titulo titulo"
+        "tabla tabla "
+        "producto-1 producto-2 "
+        "producto-3 producto-4 ";
+
+        p {
+            color: rgb(7, 77, 9);
+            font-size: 20px;
+            font-family: cursive;
+            margin: 10px;
+            grid-area: parrafo;
+            width: 100%;
+        }
+
+    h2 {
+        color: rgb(7, 77, 9);
+        font-size: 1.8rem;
+        text-decoration: underline;
+        text-align: center;
+        grid-area: titulo;
+        width: 100%;
+    }
+
+    .tabla {
+        width: 100%;
+        grid-area: tabla;
+        display: flex;
+        justify-content: center;
+    }
+
+     .producto-1 {
+        grid-area: producto-1;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+     .producto-2 {
+        grid-area: producto-2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .producto-3 {
+        grid-area: producto-3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .producto-4 {
+        grid-area: producto-4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-Productos-1 {
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        margin: 50px 50px 1px;
+        // border: 5px solid green;
+        border-radius: 1rem;
+        display: block;
+        margin: auto;
+    }
+
+    .img-Productos-2 {
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        margin: 50px 50px 1px;
+        // border: 5px solid green;
+        border-radius: 1rem;
+        display: block;
+        margin: auto;
+    }
+
+    .img-Productos-3 {
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        margin: 50px 50px 1px;
+        // border: 5px solid green;
+        border-radius: 1rem;
+        display: block;
+        margin: auto;
+    }
+
+    .img-Productos-4 {
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        margin: 50px 50px 1px;
+        // border: 5px solid green;
+        border-radius: 1rem;
+        display: block;
+        margin: auto;
+    }
+
+    $color-borde: (
+        Productos-1: 5px solid green,
+        Productos-2: 5px solid blue,
+        Productos-3: 5px solid orange,
+        Productos-4: 5px solid black,
+    );
+
+    @each $var, $choclo in $color-borde {
+        .img-#{$var} {
+            border: $choclo;
+        }
+
+    }
+    
+    .descripcion-Producto {
+        width: 22rem;
+        padding: 1rem;
+        text-align: center;
+        margin: 1px;
+        display: block;
+        margin: auto;
+    }
+
+    .tabla {
+            
+            table {
+            background-color: white;
+            text-align: left;
+            width: 50%px;
+            border-collapse: collapse;
+            
+                    Th,td {
+                            padding: 20px;
+                    }
+
+                    thead {
+                        background-color: rgb(26, 108, 81);
+                        border-bottom: solid 5px #41513f;
+                        color: white;
+                    }
+
+                    tr:nth-child(even) {
+                        background-color: rgb(39, 150, 50);
+                    }
+
+                    tr:hover td {
+                        background-color: rgb(39, 150, 50);
+                        color: white;
+                    }
+            }
+    }
+}
